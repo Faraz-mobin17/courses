@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="home" class="scrollspy">
+    <div class="navbar-fixed">
+        <nav class="white">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo black-text">Travel</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger black-text">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#home" class="black-text">Home</a>
+                        </li>
+                        <li>
+                            <a href="#search" class="black-text">Search</a>
+                        </li>
+                        <li>
+                            <a href="#popular" class="black-text">Popular Places</a>
+                        </li>
+                        <li>
+                            <a href="#gallery" class="black-text">Gallery</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="black-text">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="mobile-nav">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">Search</a>
+        </li>
+        <li>
+            <a href="#">Popular Places</a>
+        </li>
+        <li>
+            <a href="#">Gallery</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+
+    <!-- Section Slider -->
+
+    <section class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/resort1.jpg" class="responsive-img">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/resort2.jpg" class="responsive-img">
+                <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Left Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/resort3.jpg" class="responsive-img">
+                <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Right Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!-- ./slider ends -->
+
+    <!-- Search -->
+    <section id="search" class="section section-search red darken-1 white-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3>Search Destinations</h3>
+                    <div class="input-field">
+                        <input type="text" name="autocomplete-input" id="autocomplete-input" class="white grey-text autocomplete" placeholder="Aruba, Cancu....">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./ends of search -->
+
+    <!-- section: icon boxes -->
+    <section class="section section-icons grey lighten-4 center">
+        <div class="container">
+            <div class="row">
+                <h4 class="center">
+                    <span class="red-text">Travel</span> Details</h4>
+                <div class="col s12 m4">
+                    <div class="card-panel z-depth-4">
+                        <i class="material-icons large red-text">room</i>
+                        <h4>Pick Where</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, cum. Expedita error libero adipisci
+                            dolorem.
+                        </p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel z-depth-4">
+                        <i class="material-icons large red-text">store</i>
+                        <h4>Travel Shop</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam aliquam commodi at quisquam rem.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel z-depth-4">
+                        <i class="material-icons large red-text">airplanemode_active</i>
+                        <h4>Fly Cheap</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iste impedit nemo esse in harum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./search icon boxes ends -->
+
+    <!-- section: popular places -->
+    <section id="popular" class="section section-popular scrollspy">
+        <div class="container">
+            <div class="row">
+                <h4 class="center">
+                    <span class="red-text">Popular</span> Places</h4>
+                <div class="col s12 m4">
+                    <div class="card z-depth-5">
+                        <div class="card-image">
+                            <img src="img/resort1.jpg" alt="cancun mexico" class="responsive-img">
+                            <span class="card-title">Cancun, Mexico</span>
+                        </div>
+                        <div class="card-content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eligendi in repudiandae nihil expedita reprehenderit
+                            corrupti illum similique, qui doloremque.
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card z-depth-5">
+                        <div class="card-image">
+                            <img src="img/resort2.jpg" alt="cancun mexico" class="responsive-img">
+                            <span class="card-title">The Bahamas</span>
+                        </div>
+                        <div class="card-content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eligendi in repudiandae nihil expedita reprehenderit
+                            corrupti illum similique, qui doloremque.
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card z-depth-5">
+                        <div class="card-image">
+                            <img src="img/resort3.jpg" alt="cancun mexico" class="responsive-img">
+                            <span class="card-title">Florida Beach</span>
+                        </div>
+                        <div class="card-content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eligendi in repudiandae nihil expedita reprehenderit
+                            corrupti illum similique, qui doloremque.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./end popular section -->
+
+    <!-- section follow -->
+    <section class="section section-follow red darken-2 white-text center">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h4>Follow Travel</h4>
+                    <p>Follow Us on Social Media for special offer</p>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-facebook fa-4x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-twitter fa-4x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-linkedin fa-4x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-google-plus fa-4x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-youtube fa-4x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./end of follow section -->
+
+    <!-- section #gallery -->
+    <section id="gallery" class="section section-gallery scrollspy">
+        <div class="container">
+            <h4 class="center">
+                <span class="red-text">Phone</span> Gallery
+            </h4>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?beach" alt="beach" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?travel" alt="travel" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?nature" alt="nature" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?beach, travel" alt="beach, travel" class="materialboxed responsive-img">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?water" alt="beach" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?building" alt="travel" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?trees" alt="nature" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?cruise" alt="beach, travel" class="materialboxed responsive-img">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?beaches" alt="beach" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?traveling" alt="travel" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?bridge" alt="nature" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?travel, boat" alt="beach, travel" class="materialboxed responsive-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./end of section gallery -->
+
+    <!-- contact section -->
+    <section id="contact" class="section section-contact scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 l6">
+                    <div class="card-panel red white-text center z-depth-4">
+                        <i class="material-icons">email</i>
+                        <h5>Contact us for Booking</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque animi voluptatibus error ratione
+                            eius omnis tempora, perspiciatis magni eum sapiente!</p>
+                    </div>
+                    <ul class="collection with-header z-depth-4">
+                        <li class="collection-header">
+                            <h4>Location</h4>
+                        </li>
+                        <li class="collection-item">Traveling Agency</li>
+                        <li class="collection-item">555 Beach RD, Sute 33</li>
+                        <li class="collection-item">Miami, FL 007</li>
+                    </ul>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="card-panel grey lighten-3 z-depth-4">
+                        <h5>Please Fill out this form</h5>
+                        <div class="input-field">
+                            <input type="text" placeholder="Name..">
+                        </div>
+                        <div class="input-field">
+                            <input type="email" placeholder="Email..">
+                        </div>
+                        <div class="input-field">
+                            <input type="tel" placeholder="Phone..">
+                        </div>
+                        <div class="input-field">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Enter Message" class="materialize-textarea"></textarea>
+                        </div>
+                        <button type="submit" class="btn waves-effect red">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./contact section ends -->
+
+    <!-- footer starts -->
+    <footer class="section red white-text center">
+        <p class="flow-text">Travel Agency &copy; 2018</p>
+    </footer>
+    <!-- ./footer ends -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
